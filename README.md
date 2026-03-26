@@ -9,11 +9,11 @@
 <img width="1512" height="916" alt="image" src="https://github.com/user-attachments/assets/e877bbea-cc22-4186-b8b2-a036b302d94c" />
 <img width="1593" height="938" alt="image" src="https://github.com/user-attachments/assets/80429d22-08a1-4809-b3dd-1e0abb207eea" />
 
-#include <iostream>
+    #include <iostream>
 
-using namespace std;
+    using namespace std;
 
-int main() {
+    int main() {
     // Настройка корректного отображения русского языка в консоли
     setlocale(LC_ALL, "Russian");
 
@@ -28,4 +28,4 @@ int main() {
 
 
     return 0;
-}
+    }
